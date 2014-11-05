@@ -1,4 +1,4 @@
-package Praktikum1;
+package RNP1;
 
 import java.io.IOException;
 import java.io.PrintWriter;
