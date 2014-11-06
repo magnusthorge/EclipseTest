@@ -16,7 +16,7 @@ import Praktikum2.Logger;
 public class POP3Server extends Thread {
 
 	private static final String BENUTZER = "Rechnernetze";
-	private static final String PASSWORT = "B0ivhFKc";
+	private static final String PASSWORT = "Kurix";
 
 	private ServerSocket serverSocket;
 	private Socket clientVerbindung;
@@ -81,12 +81,12 @@ public class POP3Server extends Thread {
 			verarbeiteQuit();
 			return false;
 		}
-		while (!eingehendeNachricht.startsWith("USER")) {
+		while (!eingehendeNachricht.startsWith("USER") || eingehendeNachricht.length() <6) {
 			if (eingehendeNachricht.startsWith("QUIT")) {
 				verarbeiteQuit();
 				return false;
 			}
-			send("-ERR Befehl unbekannt");
+			send("-ERR Melden Sie sich mit 'USER Benutzername' an");
 			eingehendeNachricht = reader.readLine();
 			logger.log("Client: " + eingehendeNachricht);
 		}
@@ -108,10 +108,14 @@ public class POP3Server extends Thread {
 				send("-ERR Passwort erwartet");
 				eingehendeNachricht = reader.readLine();
 			}
-			
+			if(eingehendeNachricht.length() >5){
 			sentPassword = eingehendeNachricht.substring(5);
 			if (!sentPassword.equals(PASSWORT)) {
 				send("-ERR Passwort ist ungültig");
+				eingehendeNachricht = reader.readLine();
+			}
+			}else{
+				send("-ERR Passwort Befehl ungültig. 'PASS Passwort'");
 				eingehendeNachricht = reader.readLine();
 			}
 		}

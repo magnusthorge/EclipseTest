@@ -27,7 +27,7 @@ public class Start {
 		//p.addKonto(new EmailKonto("test3@smart-mail.de", "kurix",
 		//		"pop.smart-mail.de", 110));
 		p.addKonto(new EmailKonto("bai4rnpC", "B0ivhFKc","lab30.cpt.haw-hamburg.de", 11000));
-
+		p.addKonto(new EmailKonto("bai4rnpC", "B0ivhFKc","lab31.cpt.haw-hamburg.de", 11000));
 		
 
 		while (server == null) {

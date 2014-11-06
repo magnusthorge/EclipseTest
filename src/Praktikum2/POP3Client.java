@@ -53,7 +53,7 @@ public class POP3Client extends Thread {
 		}
 	}
 	
-	public boolean isConnected() { //Hilfsmethode um isVonnected aud Socket Objekt ohne Fehler aufzurufen
+	public boolean isConnected() { //Hilfsmethode um isConnected aus Socket Objekt ohne Fehler aufzurufen
 		return (socket != null && socket.isConnected());
 	}
 	
@@ -100,7 +100,7 @@ public class POP3Client extends Thread {
 				send("RETR " + i);   //RETR i holt die i-te E-Mail vom E-Mail-Server.
 				getAntwortVomServer(); //Log Eintrag
 				EMail.erzeugeEmailDatei(leseEmail());
-				send("DELE " + i);  //l�scht die i-te E-Mail am E-Mail-Server.
+				send("DELE " + i);  //löscht die i-te E-Mail am E-Mail-Server.
 				getAntwortVomServer();
 				}
 			//Ende der Verbindung
