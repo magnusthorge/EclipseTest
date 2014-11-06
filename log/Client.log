@@ -53,3 +53,63 @@
 05.11.2014 08:40:27: Client DELE 1
 05.11.2014 08:40:27: Server: +OK Message marked for deletion
 05.11.2014 08:40:27: Client QUIT
+06.11.2014 08:36:42: Verbindung: true
+06.11.2014 08:36:42: Server: +OK Smart-Mail POP3 service ready
+06.11.2014 08:36:42: Client USER test3@smart-mail.de
+06.11.2014 08:36:42: Server: +OK Password required
+06.11.2014 08:36:42: +OK Password required
+06.11.2014 08:36:42: Client PASS kurix
+06.11.2014 08:36:45: Server: -ERR Login failed
+06.11.2014 08:36:45: Client USER test3@smart-mail.de
+06.11.2014 08:36:45: Server: +OK Password required
+06.11.2014 08:36:45: +OK Password required
+06.11.2014 08:36:45: Client PASS kurix
+06.11.2014 08:36:48: Server: -ERR Login failed
+06.11.2014 08:36:48: Client USER test3@smart-mail.de
+06.11.2014 08:36:48: Server: +OK Password required
+06.11.2014 08:36:48: +OK Password required
+06.11.2014 08:36:48: Client PASS kurix
+06.11.2014 08:36:51: Server: -ERR Login failed
+06.11.2014 08:36:51: Client USER test3@smart-mail.de
+06.11.2014 08:36:51: Server: null
+06.11.2014 08:36:51: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:37:25: Verbindung: true
+06.11.2014 08:37:25: Server: +OK Smart-Mail POP3 service ready
+06.11.2014 08:37:25: Client USER test3@smart-mail.de
+06.11.2014 08:37:25: Server: +OK Password required
+06.11.2014 08:37:25: +OK Password required
+06.11.2014 08:37:25: Client PASS kurix
+06.11.2014 08:37:28: Server: -ERR Login failed
+06.11.2014 08:37:28: Client USER test3@smart-mail.de
+06.11.2014 08:37:28: Server: +OK Password required
+06.11.2014 08:37:28: +OK Password required
+06.11.2014 08:37:28: Client PASS kurix
+06.11.2014 08:37:31: Server: -ERR Login failed
+06.11.2014 08:37:31: Client USER test3@smart-mail.de
+06.11.2014 08:37:31: Server: +OK Password required
+06.11.2014 08:37:31: +OK Password required
+06.11.2014 08:37:31: Client PASS kurix
+06.11.2014 08:37:34: Server: -ERR Login failed
+06.11.2014 08:37:34: Client USER test3@smart-mail.de
+06.11.2014 08:37:34: Server: null
+06.11.2014 08:37:34: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:39:36: Verbindung: true
+06.11.2014 08:39:36: Server: +OK Smart-Mail POP3 service ready
+06.11.2014 08:39:36: Client USER test3@smart-mail.de
+06.11.2014 08:39:36: Server: +OK Password required
+06.11.2014 08:39:36: +OK Password required
+06.11.2014 08:39:36: Client PASS kurix
+06.11.2014 08:39:39: Server: -ERR Login failed
+06.11.2014 08:39:39: Client USER test3@smart-mail.de
+06.11.2014 08:39:39: Server: +OK Password required
+06.11.2014 08:39:39: +OK Password required
+06.11.2014 08:39:39: Client PASS kurix
+06.11.2014 08:39:42: Server: -ERR Login failed
+06.11.2014 08:39:42: Client USER test3@smart-mail.de
+06.11.2014 08:39:42: Server: +OK Password required
+06.11.2014 08:39:42: +OK Password required
+06.11.2014 08:39:42: Client PASS kurix
+06.11.2014 08:39:45: Server: -ERR Login failed
+06.11.2014 08:39:45: Client USER test3@smart-mail.de
+06.11.2014 08:39:45: Server: null
+06.11.2014 08:39:45: Server: Der Dienstanbieter hat Ihren Account gesperrt
