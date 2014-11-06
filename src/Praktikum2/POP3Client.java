@@ -23,13 +23,13 @@ public class POP3Client extends Thread {
 	private ArrayList<EmailKonto> konten;
 	
 	private Logger logger;
-	private final long ZEITABSTAND=(30000*4); //30 Sekunden Zeitabstand
+	private final long ZEITABSTAND=(30000); //30 Sekunden Zeitabstand
 	
 	
 	public POP3Client(){
 		konten = new ArrayList<EmailKonto>();
 		logger = new Logger("Client");
-		logger.setDebug(true);
+		logger.setDebug(false);
 		
 	}
 	
@@ -46,9 +46,8 @@ public class POP3Client extends Thread {
 			
 			logger.log("Verbindung: " + isConnected());
 			String antwortVomServer = getAntwortVomServer();
-			return (antwortVomServer.startsWith("+OK")); //Wenn +OK zurückkommt -> true
+			return (antwortVomServer.startsWith("+OK")); //Wenn +OK zurï¿½ckkommt -> true
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return false;
 		}
@@ -81,7 +80,7 @@ public class POP3Client extends Thread {
 	}
 	
 	public void abholenDerEmails() {
-		logger.open(); //Öffnet Log Datei
+		logger.open(); //ï¿½ffnet Log Datei
 		for (EmailKonto emailkonto : konten) {
 			try {
 			//Stellt eine Verbindung zum Server her
@@ -92,7 +91,7 @@ public class POP3Client extends Thread {
 				while (!authentifiziere(emailkonto));
 			}catch(NullPointerException ne){
 				 logger.log("Server: Der Dienstanbieter hat Ihren Account gesperrt");
-				 continue; //versucht nächsten Account
+				 continue; //versucht nï¿½chsten Account
 			}
 			
 			//Transaktion mit Server
@@ -101,7 +100,7 @@ public class POP3Client extends Thread {
 				send("RETR " + i);   //RETR i holt die i-te E-Mail vom E-Mail-Server.
 				getAntwortVomServer(); //Log Eintrag
 				EMail.erzeugeEmailDatei(leseEmail());
-				send("DELE " + i);  //löscht die i-te E-Mail am E-Mail-Server.
+				send("DELE " + i);  //lï¿½scht die i-te E-Mail am E-Mail-Server.
 				getAntwortVomServer();
 				}
 			//Ende der Verbindung
@@ -111,7 +110,7 @@ public class POP3Client extends Thread {
 				e.printStackTrace();
 			}
 			}
-		logger.close(); //Schließt Log Datei
+		logger.close(); //Schlieï¿½t Log Datei
 		
 	}
 	
@@ -136,8 +135,8 @@ public class POP3Client extends Thread {
 	}
 	
 	private int getAnzahlderNachrichten() throws IOException {
-		send("STAT");  //liefert den Status der Mailbox, u. a. die Anzahl aller E-Mails im Postfach und deren Gesamtgröße (in Byte).
-		return Integer.parseInt(getAntwortVomServer().split(" ")[1]);  //Erste Feld Status(+OK oder -Err), zweite Feld Anzahl der Mails, dritte Größe aller Mails
+		send("STAT");  //liefert den Status der Mailbox, u. a. die Anzahl aller E-Mails im Postfach und deren Gesamtgrï¿½ï¿½e (in Byte).
+		return Integer.parseInt(getAntwortVomServer().split(" ")[1]);  //Erste Feld Status(+OK oder -Err), zweite Feld Anzahl der Mails, dritte Grï¿½ï¿½e aller Mails
 	}
 	
 	private String getAntwortVomServer() throws IOException{

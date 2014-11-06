@@ -113,3 +113,933 @@
 06.11.2014 08:39:45: Client USER test3@smart-mail.de
 06.11.2014 08:39:45: Server: null
 06.11.2014 08:39:45: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:53:57: Verbindung: true
+06.11.2014 08:53:57: Server: +OK Smart-Mail POP3 service ready
+06.11.2014 08:53:57: Client USER test1@smart-mail.de
+06.11.2014 08:53:57: Server: +OK Password required
+06.11.2014 08:53:57: +OK Password required
+06.11.2014 08:53:57: Client PASS kurix
+06.11.2014 08:54:00: Server: -ERR Login failed
+06.11.2014 08:54:00: Client USER test1@smart-mail.de
+06.11.2014 08:54:00: Server: +OK Password required
+06.11.2014 08:54:00: +OK Password required
+06.11.2014 08:54:00: Client PASS kurix
+06.11.2014 08:54:03: Server: -ERR Login failed
+06.11.2014 08:54:03: Client USER test1@smart-mail.de
+06.11.2014 08:54:03: Server: +OK Password required
+06.11.2014 08:54:03: +OK Password required
+06.11.2014 08:54:03: Client PASS kurix
+06.11.2014 08:54:06: Server: -ERR Login failed
+06.11.2014 08:54:06: Client USER test1@smart-mail.de
+06.11.2014 08:54:06: Server: null
+06.11.2014 08:54:06: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:54:06: Verbindung: true
+06.11.2014 08:54:06: Server: +OK Smart-Mail POP3 service ready
+06.11.2014 08:54:06: Client USER test2@smart-mil.de
+06.11.2014 08:54:06: Server: +OK Password required
+06.11.2014 08:54:06: +OK Password required
+06.11.2014 08:54:06: Client PASS kurix
+06.11.2014 08:54:09: Server: -ERR Login failed
+06.11.2014 08:54:09: Client USER test2@smart-mil.de
+06.11.2014 08:54:09: Server: +OK Password required
+06.11.2014 08:54:09: +OK Password required
+06.11.2014 08:54:09: Client PASS kurix
+06.11.2014 08:54:12: Server: -ERR Login failed
+06.11.2014 08:54:12: Client USER test2@smart-mil.de
+06.11.2014 08:54:12: Server: +OK Password required
+06.11.2014 08:54:12: +OK Password required
+06.11.2014 08:54:12: Client PASS kurix
+06.11.2014 08:54:16: Server: -ERR Login failed
+06.11.2014 08:54:16: Client USER test2@smart-mil.de
+06.11.2014 08:54:16: Server: null
+06.11.2014 08:54:16: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:54:16: Verbindung: true
+06.11.2014 08:54:16: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:54:16: Client USER test3@smart-mail.de
+06.11.2014 08:54:16: Server: null
+06.11.2014 08:54:16: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:54:41: Verbindung: true
+06.11.2014 08:54:41: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:54:41: Client USER test1@smart-mail.de
+06.11.2014 08:54:41: Server: null
+06.11.2014 08:54:41: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:54:41: Verbindung: true
+06.11.2014 08:54:41: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:54:41: Client USER test2@smart-mil.de
+06.11.2014 08:54:41: Server: null
+06.11.2014 08:54:41: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:54:41: Verbindung: true
+06.11.2014 08:54:41: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:54:41: Client USER test3@smart-mail.de
+06.11.2014 08:54:41: Server: null
+06.11.2014 08:54:41: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:55:27: Verbindung: true
+06.11.2014 08:55:27: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:55:27: Client USER test1@smart-mail.de
+06.11.2014 08:55:27: Server: null
+06.11.2014 08:55:27: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:55:27: Verbindung: true
+06.11.2014 08:55:27: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:55:27: Client USER test2@smart-mil.de
+06.11.2014 08:55:27: Server: null
+06.11.2014 08:55:27: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:55:27: Verbindung: true
+06.11.2014 08:55:27: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:55:27: Client USER test3@smart-mail.de
+06.11.2014 08:55:27: Server: null
+06.11.2014 08:55:27: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:56:05: Verbindung: true
+06.11.2014 08:56:05: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:56:05: Client USER test1@smart-mail.de
+06.11.2014 08:56:05: Server: null
+06.11.2014 08:56:05: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:56:05: Verbindung: true
+06.11.2014 08:56:05: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:56:05: Client USER test2@smart-mil.de
+06.11.2014 08:56:05: Server: null
+06.11.2014 08:56:05: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 08:56:05: Verbindung: true
+06.11.2014 08:56:05: Server: -ERR IP temporarily banned because of too many failed login attempts
+06.11.2014 08:56:05: Client USER test3@smart-mail.de
+06.11.2014 08:56:05: Server: null
+06.11.2014 08:56:05: Server: Der Dienstanbieter hat Ihren Account gesperrt
+06.11.2014 09:03:23: Verbindung: true
+06.11.2014 09:03:23: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:03:23: Client USER bai4rnpC
+06.11.2014 09:03:23: Server: +OK
+06.11.2014 09:03:23: +OK
+06.11.2014 09:03:23: Client PASS B0ivhFKc
+06.11.2014 09:03:23: Server: +OK
+06.11.2014 09:03:23: +OK
+06.11.2014 09:03:23: Client STAT
+06.11.2014 09:03:23: Server: +OK 0 0
+06.11.2014 09:03:23: Client QUIT
+06.11.2014 09:08:37: Verbindung: true
+06.11.2014 09:08:37: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:08:37: Client USER bai4rnpC
+06.11.2014 09:08:37: Server: +OK
+06.11.2014 09:08:37: +OK
+06.11.2014 09:08:37: Client PASS B0ivhFKc
+06.11.2014 09:08:38: Server: +OK
+06.11.2014 09:08:38: +OK
+06.11.2014 09:08:38: Client STAT
+06.11.2014 09:08:38: Server: +OK 0 0
+06.11.2014 09:08:38: Client QUIT
+06.11.2014 09:09:08: Verbindung: true
+06.11.2014 09:09:08: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:09:08: Client USER bai4rnpC
+06.11.2014 09:09:08: Server: +OK
+06.11.2014 09:09:08: +OK
+06.11.2014 09:09:08: Client PASS B0ivhFKc
+06.11.2014 09:09:08: Server: +OK
+06.11.2014 09:09:08: +OK
+06.11.2014 09:09:08: Client STAT
+06.11.2014 09:09:08: Server: +OK 0 0
+06.11.2014 09:09:08: Client QUIT
+06.11.2014 09:09:38: Verbindung: true
+06.11.2014 09:09:38: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:09:38: Client USER bai4rnpC
+06.11.2014 09:09:38: Server: +OK
+06.11.2014 09:09:38: +OK
+06.11.2014 09:09:38: Client PASS B0ivhFKc
+06.11.2014 09:09:38: Server: +OK
+06.11.2014 09:09:38: +OK
+06.11.2014 09:09:38: Client STAT
+06.11.2014 09:09:38: Server: +OK 0 0
+06.11.2014 09:09:38: Client QUIT
+06.11.2014 09:10:08: Verbindung: true
+06.11.2014 09:10:08: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:10:08: Client USER bai4rnpC
+06.11.2014 09:10:08: Server: +OK
+06.11.2014 09:10:08: +OK
+06.11.2014 09:10:08: Client PASS B0ivhFKc
+06.11.2014 09:10:08: Server: +OK
+06.11.2014 09:10:08: +OK
+06.11.2014 09:10:08: Client STAT
+06.11.2014 09:10:08: Server: +OK 0 0
+06.11.2014 09:10:08: Client QUIT
+06.11.2014 09:10:38: Verbindung: true
+06.11.2014 09:10:38: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:10:38: Client USER bai4rnpC
+06.11.2014 09:10:38: Server: +OK
+06.11.2014 09:10:38: +OK
+06.11.2014 09:10:38: Client PASS B0ivhFKc
+06.11.2014 09:10:38: Server: +OK
+06.11.2014 09:10:38: +OK
+06.11.2014 09:10:38: Client STAT
+06.11.2014 09:10:38: Server: +OK 0 0
+06.11.2014 09:10:38: Client QUIT
+06.11.2014 09:11:08: Verbindung: true
+06.11.2014 09:11:08: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:11:08: Client USER bai4rnpC
+06.11.2014 09:11:08: Server: +OK
+06.11.2014 09:11:08: +OK
+06.11.2014 09:11:08: Client PASS B0ivhFKc
+06.11.2014 09:11:08: Server: +OK
+06.11.2014 09:11:08: +OK
+06.11.2014 09:11:08: Client STAT
+06.11.2014 09:11:08: Server: +OK 0 0
+06.11.2014 09:11:08: Client QUIT
+06.11.2014 09:11:38: Verbindung: true
+06.11.2014 09:11:38: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:11:38: Client USER bai4rnpC
+06.11.2014 09:11:38: Server: +OK
+06.11.2014 09:11:38: +OK
+06.11.2014 09:11:38: Client PASS B0ivhFKc
+06.11.2014 09:11:38: Server: +OK
+06.11.2014 09:11:38: +OK
+06.11.2014 09:11:38: Client STAT
+06.11.2014 09:11:38: Server: +OK 0 0
+06.11.2014 09:11:38: Client QUIT
+06.11.2014 09:12:08: Verbindung: true
+06.11.2014 09:12:08: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:12:08: Client USER bai4rnpC
+06.11.2014 09:12:08: Server: +OK
+06.11.2014 09:12:08: +OK
+06.11.2014 09:12:08: Client PASS B0ivhFKc
+06.11.2014 09:12:08: Server: +OK
+06.11.2014 09:12:08: +OK
+06.11.2014 09:12:08: Client STAT
+06.11.2014 09:12:08: Server: +OK 0 0
+06.11.2014 09:12:08: Client QUIT
+06.11.2014 09:12:39: Verbindung: true
+06.11.2014 09:12:39: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:12:39: Client USER bai4rnpC
+06.11.2014 09:12:39: Server: +OK
+06.11.2014 09:12:39: +OK
+06.11.2014 09:12:39: Client PASS B0ivhFKc
+06.11.2014 09:12:39: Server: +OK
+06.11.2014 09:12:39: +OK
+06.11.2014 09:12:39: Client STAT
+06.11.2014 09:12:39: Server: +OK 0 0
+06.11.2014 09:12:39: Client QUIT
+06.11.2014 09:13:09: Verbindung: true
+06.11.2014 09:13:09: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:13:09: Client USER bai4rnpC
+06.11.2014 09:13:09: Server: +OK
+06.11.2014 09:13:09: +OK
+06.11.2014 09:13:09: Client PASS B0ivhFKc
+06.11.2014 09:13:09: Server: +OK
+06.11.2014 09:13:09: +OK
+06.11.2014 09:13:09: Client STAT
+06.11.2014 09:13:09: Server: +OK 0 0
+06.11.2014 09:13:09: Client QUIT
+06.11.2014 09:13:39: Verbindung: true
+06.11.2014 09:13:39: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:13:39: Client USER bai4rnpC
+06.11.2014 09:13:39: Server: +OK
+06.11.2014 09:13:39: +OK
+06.11.2014 09:13:39: Client PASS B0ivhFKc
+06.11.2014 09:13:39: Server: +OK
+06.11.2014 09:13:39: +OK
+06.11.2014 09:13:39: Client STAT
+06.11.2014 09:13:39: Server: +OK 0 0
+06.11.2014 09:13:39: Client QUIT
+06.11.2014 09:14:09: Verbindung: true
+06.11.2014 09:14:09: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:14:09: Client USER bai4rnpC
+06.11.2014 09:14:09: Server: +OK
+06.11.2014 09:14:09: +OK
+06.11.2014 09:14:09: Client PASS B0ivhFKc
+06.11.2014 09:14:09: Server: +OK
+06.11.2014 09:14:09: +OK
+06.11.2014 09:14:09: Client STAT
+06.11.2014 09:14:09: Server: +OK 0 0
+06.11.2014 09:14:09: Client QUIT
+06.11.2014 09:14:39: Verbindung: true
+06.11.2014 09:14:39: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:14:39: Client USER bai4rnpC
+06.11.2014 09:14:39: Server: +OK
+06.11.2014 09:14:39: +OK
+06.11.2014 09:14:39: Client PASS B0ivhFKc
+06.11.2014 09:14:39: Server: +OK
+06.11.2014 09:14:39: +OK
+06.11.2014 09:14:39: Client STAT
+06.11.2014 09:14:39: Server: +OK 0 0
+06.11.2014 09:14:39: Client QUIT
+06.11.2014 09:15:09: Verbindung: true
+06.11.2014 09:15:09: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:15:09: Client USER bai4rnpC
+06.11.2014 09:15:09: Server: +OK
+06.11.2014 09:15:09: +OK
+06.11.2014 09:15:09: Client PASS B0ivhFKc
+06.11.2014 09:15:09: Server: +OK
+06.11.2014 09:15:09: +OK
+06.11.2014 09:15:09: Client STAT
+06.11.2014 09:15:09: Server: +OK 0 0
+06.11.2014 09:15:09: Client QUIT
+06.11.2014 09:15:39: Verbindung: true
+06.11.2014 09:15:39: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:15:39: Client USER bai4rnpC
+06.11.2014 09:15:39: Server: +OK
+06.11.2014 09:15:39: +OK
+06.11.2014 09:15:39: Client PASS B0ivhFKc
+06.11.2014 09:15:39: Server: +OK
+06.11.2014 09:15:39: +OK
+06.11.2014 09:15:39: Client STAT
+06.11.2014 09:15:39: Server: +OK 1 344
+06.11.2014 09:15:39: Client RETR 1
+06.11.2014 09:15:39: Server: +OK 344 octets - message follows
+06.11.2014 09:15:39: Client DELE 1
+06.11.2014 09:15:39: Server: +OK message 1 deleted
+06.11.2014 09:15:39: Client QUIT
+06.11.2014 09:16:09: Verbindung: true
+06.11.2014 09:16:09: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:16:09: Client USER bai4rnpC
+06.11.2014 09:16:10: Server: +OK
+06.11.2014 09:16:10: +OK
+06.11.2014 09:16:10: Client PASS B0ivhFKc
+06.11.2014 09:16:10: Server: +OK
+06.11.2014 09:16:10: +OK
+06.11.2014 09:16:10: Client STAT
+06.11.2014 09:16:10: Server: +OK 0 0
+06.11.2014 09:16:10: Client QUIT
+06.11.2014 09:16:40: Verbindung: true
+06.11.2014 09:16:40: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:16:40: Client USER bai4rnpC
+06.11.2014 09:16:40: Server: +OK
+06.11.2014 09:16:40: +OK
+06.11.2014 09:16:40: Client PASS B0ivhFKc
+06.11.2014 09:16:40: Server: +OK
+06.11.2014 09:16:40: +OK
+06.11.2014 09:16:40: Client STAT
+06.11.2014 09:16:40: Server: +OK 0 0
+06.11.2014 09:16:40: Client QUIT
+06.11.2014 09:17:10: Verbindung: true
+06.11.2014 09:17:10: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:17:10: Client USER bai4rnpC
+06.11.2014 09:17:10: Server: +OK
+06.11.2014 09:17:10: +OK
+06.11.2014 09:17:10: Client PASS B0ivhFKc
+06.11.2014 09:17:10: Server: +OK
+06.11.2014 09:17:10: +OK
+06.11.2014 09:17:10: Client STAT
+06.11.2014 09:17:10: Server: +OK 0 0
+06.11.2014 09:17:10: Client QUIT
+06.11.2014 09:17:40: Verbindung: true
+06.11.2014 09:17:40: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:17:40: Client USER bai4rnpC
+06.11.2014 09:17:40: Server: +OK
+06.11.2014 09:17:40: +OK
+06.11.2014 09:17:40: Client PASS B0ivhFKc
+06.11.2014 09:17:40: Server: +OK
+06.11.2014 09:17:40: +OK
+06.11.2014 09:17:40: Client STAT
+06.11.2014 09:17:40: Server: +OK 0 0
+06.11.2014 09:17:40: Client QUIT
+06.11.2014 09:18:10: Verbindung: true
+06.11.2014 09:18:10: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:18:10: Client USER bai4rnpC
+06.11.2014 09:18:10: Server: +OK
+06.11.2014 09:18:10: +OK
+06.11.2014 09:18:10: Client PASS B0ivhFKc
+06.11.2014 09:18:10: Server: +OK
+06.11.2014 09:18:10: +OK
+06.11.2014 09:18:10: Client STAT
+06.11.2014 09:18:10: Server: +OK 0 0
+06.11.2014 09:18:10: Client QUIT
+06.11.2014 09:18:40: Verbindung: true
+06.11.2014 09:18:40: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:18:40: Client USER bai4rnpC
+06.11.2014 09:18:40: Server: +OK
+06.11.2014 09:18:40: +OK
+06.11.2014 09:18:40: Client PASS B0ivhFKc
+06.11.2014 09:18:40: Server: +OK
+06.11.2014 09:18:40: +OK
+06.11.2014 09:18:40: Client STAT
+06.11.2014 09:18:40: Server: +OK 0 0
+06.11.2014 09:18:40: Client QUIT
+06.11.2014 09:19:10: Verbindung: true
+06.11.2014 09:19:10: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:19:10: Client USER bai4rnpC
+06.11.2014 09:19:10: Server: +OK
+06.11.2014 09:19:10: +OK
+06.11.2014 09:19:10: Client PASS B0ivhFKc
+06.11.2014 09:19:10: Server: +OK
+06.11.2014 09:19:10: +OK
+06.11.2014 09:19:10: Client STAT
+06.11.2014 09:19:10: Server: +OK 0 0
+06.11.2014 09:19:10: Client QUIT
+06.11.2014 09:19:40: Verbindung: true
+06.11.2014 09:19:40: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:19:40: Client USER bai4rnpC
+06.11.2014 09:19:40: Server: +OK
+06.11.2014 09:19:40: +OK
+06.11.2014 09:19:40: Client PASS B0ivhFKc
+06.11.2014 09:19:40: Server: +OK
+06.11.2014 09:19:40: +OK
+06.11.2014 09:19:40: Client STAT
+06.11.2014 09:19:40: Server: +OK 0 0
+06.11.2014 09:19:40: Client QUIT
+06.11.2014 09:20:10: Verbindung: true
+06.11.2014 09:20:10: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:20:10: Client USER bai4rnpC
+06.11.2014 09:20:11: Server: +OK
+06.11.2014 09:20:11: +OK
+06.11.2014 09:20:11: Client PASS B0ivhFKc
+06.11.2014 09:20:11: Server: +OK
+06.11.2014 09:20:11: +OK
+06.11.2014 09:20:11: Client STAT
+06.11.2014 09:20:11: Server: +OK 0 0
+06.11.2014 09:20:11: Client QUIT
+06.11.2014 09:20:41: Verbindung: true
+06.11.2014 09:20:41: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:20:41: Client USER bai4rnpC
+06.11.2014 09:20:41: Server: +OK
+06.11.2014 09:20:41: +OK
+06.11.2014 09:20:41: Client PASS B0ivhFKc
+06.11.2014 09:20:41: Server: +OK
+06.11.2014 09:20:41: +OK
+06.11.2014 09:20:41: Client STAT
+06.11.2014 09:20:41: Server: +OK 0 0
+06.11.2014 09:20:41: Client QUIT
+06.11.2014 09:21:11: Verbindung: true
+06.11.2014 09:21:11: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:21:11: Client USER bai4rnpC
+06.11.2014 09:21:11: Server: +OK
+06.11.2014 09:21:11: +OK
+06.11.2014 09:21:11: Client PASS B0ivhFKc
+06.11.2014 09:21:11: Server: +OK
+06.11.2014 09:21:11: +OK
+06.11.2014 09:21:11: Client STAT
+06.11.2014 09:21:11: Server: +OK 0 0
+06.11.2014 09:21:11: Client QUIT
+06.11.2014 09:21:41: Verbindung: true
+06.11.2014 09:21:41: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:21:41: Client USER bai4rnpC
+06.11.2014 09:21:41: Server: +OK
+06.11.2014 09:21:41: +OK
+06.11.2014 09:21:41: Client PASS B0ivhFKc
+06.11.2014 09:21:41: Server: +OK
+06.11.2014 09:21:41: +OK
+06.11.2014 09:21:41: Client STAT
+06.11.2014 09:21:41: Server: +OK 0 0
+06.11.2014 09:21:41: Client QUIT
+06.11.2014 09:22:11: Verbindung: true
+06.11.2014 09:22:11: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:22:11: Client USER bai4rnpC
+06.11.2014 09:22:11: Server: +OK
+06.11.2014 09:22:11: +OK
+06.11.2014 09:22:11: Client PASS B0ivhFKc
+06.11.2014 09:22:11: Server: +OK
+06.11.2014 09:22:11: +OK
+06.11.2014 09:22:11: Client STAT
+06.11.2014 09:22:11: Server: +OK 0 0
+06.11.2014 09:22:11: Client QUIT
+06.11.2014 09:22:41: Verbindung: true
+06.11.2014 09:22:41: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:22:41: Client USER bai4rnpC
+06.11.2014 09:22:41: Server: +OK
+06.11.2014 09:22:41: +OK
+06.11.2014 09:22:41: Client PASS B0ivhFKc
+06.11.2014 09:22:41: Server: +OK
+06.11.2014 09:22:41: +OK
+06.11.2014 09:22:41: Client STAT
+06.11.2014 09:22:41: Server: +OK 0 0
+06.11.2014 09:22:41: Client QUIT
+06.11.2014 09:23:11: Verbindung: true
+06.11.2014 09:23:11: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:23:11: Client USER bai4rnpC
+06.11.2014 09:23:11: Server: +OK
+06.11.2014 09:23:11: +OK
+06.11.2014 09:23:11: Client PASS B0ivhFKc
+06.11.2014 09:23:11: Server: +OK
+06.11.2014 09:23:11: +OK
+06.11.2014 09:23:11: Client STAT
+06.11.2014 09:23:11: Server: +OK 0 0
+06.11.2014 09:23:11: Client QUIT
+06.11.2014 09:23:41: Verbindung: true
+06.11.2014 09:23:41: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:23:41: Client USER bai4rnpC
+06.11.2014 09:23:41: Server: +OK
+06.11.2014 09:23:41: +OK
+06.11.2014 09:23:41: Client PASS B0ivhFKc
+06.11.2014 09:23:41: Server: +OK
+06.11.2014 09:23:41: +OK
+06.11.2014 09:23:41: Client STAT
+06.11.2014 09:23:41: Server: +OK 0 0
+06.11.2014 09:23:41: Client QUIT
+06.11.2014 09:24:11: Verbindung: true
+06.11.2014 09:24:11: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:24:11: Client USER bai4rnpC
+06.11.2014 09:24:12: Server: +OK
+06.11.2014 09:24:12: +OK
+06.11.2014 09:24:12: Client PASS B0ivhFKc
+06.11.2014 09:24:12: Server: +OK
+06.11.2014 09:24:12: +OK
+06.11.2014 09:24:12: Client STAT
+06.11.2014 09:24:12: Server: +OK 0 0
+06.11.2014 09:24:12: Client QUIT
+06.11.2014 09:24:42: Verbindung: true
+06.11.2014 09:24:42: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:24:42: Client USER bai4rnpC
+06.11.2014 09:24:42: Server: +OK
+06.11.2014 09:24:42: +OK
+06.11.2014 09:24:42: Client PASS B0ivhFKc
+06.11.2014 09:24:42: Server: +OK
+06.11.2014 09:24:42: +OK
+06.11.2014 09:24:42: Client STAT
+06.11.2014 09:24:42: Server: +OK 0 0
+06.11.2014 09:24:42: Client QUIT
+06.11.2014 09:25:12: Verbindung: true
+06.11.2014 09:25:12: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:25:12: Client USER bai4rnpC
+06.11.2014 09:25:12: Server: +OK
+06.11.2014 09:25:12: +OK
+06.11.2014 09:25:12: Client PASS B0ivhFKc
+06.11.2014 09:25:12: Server: +OK
+06.11.2014 09:25:12: +OK
+06.11.2014 09:25:12: Client STAT
+06.11.2014 09:25:12: Server: +OK 0 0
+06.11.2014 09:25:12: Client QUIT
+06.11.2014 09:25:42: Verbindung: true
+06.11.2014 09:25:42: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:25:42: Client USER bai4rnpC
+06.11.2014 09:25:42: Server: +OK
+06.11.2014 09:25:42: +OK
+06.11.2014 09:25:42: Client PASS B0ivhFKc
+06.11.2014 09:25:42: Server: +OK
+06.11.2014 09:25:42: +OK
+06.11.2014 09:25:42: Client STAT
+06.11.2014 09:25:42: Server: +OK 0 0
+06.11.2014 09:25:42: Client QUIT
+06.11.2014 09:26:45: Verbindung: true
+06.11.2014 09:26:45: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:26:45: Client USER bai4rnpC
+06.11.2014 09:26:45: Server: +OK
+06.11.2014 09:26:45: +OK
+06.11.2014 09:26:45: Client PASS B0ivhFKc
+06.11.2014 09:26:45: Server: +OK
+06.11.2014 09:26:45: +OK
+06.11.2014 09:26:45: Client STAT
+06.11.2014 09:26:45: Server: +OK 0 0
+06.11.2014 09:26:45: Client QUIT
+06.11.2014 09:27:15: Verbindung: true
+06.11.2014 09:27:15: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:27:15: Client USER bai4rnpC
+06.11.2014 09:27:15: Server: +OK
+06.11.2014 09:27:15: +OK
+06.11.2014 09:27:15: Client PASS B0ivhFKc
+06.11.2014 09:27:15: Server: +OK
+06.11.2014 09:27:15: +OK
+06.11.2014 09:27:15: Client STAT
+06.11.2014 09:27:15: Server: +OK 0 0
+06.11.2014 09:27:15: Client QUIT
+06.11.2014 09:27:45: Verbindung: true
+06.11.2014 09:27:46: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:27:46: Client USER bai4rnpC
+06.11.2014 09:27:46: Server: +OK
+06.11.2014 09:27:46: +OK
+06.11.2014 09:27:46: Client PASS B0ivhFKc
+06.11.2014 09:27:46: Server: +OK
+06.11.2014 09:27:46: +OK
+06.11.2014 09:27:46: Client STAT
+06.11.2014 09:27:46: Server: +OK 0 0
+06.11.2014 09:27:46: Client QUIT
+06.11.2014 09:28:16: Verbindung: true
+06.11.2014 09:28:16: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:28:16: Client USER bai4rnpC
+06.11.2014 09:28:16: Server: +OK
+06.11.2014 09:28:16: +OK
+06.11.2014 09:28:16: Client PASS B0ivhFKc
+06.11.2014 09:28:16: Server: +OK
+06.11.2014 09:28:16: +OK
+06.11.2014 09:28:16: Client STAT
+06.11.2014 09:28:16: Server: +OK 0 0
+06.11.2014 09:28:16: Client QUIT
+06.11.2014 09:28:46: Verbindung: true
+06.11.2014 09:28:46: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:28:46: Client USER bai4rnpC
+06.11.2014 09:28:46: Server: +OK
+06.11.2014 09:28:46: +OK
+06.11.2014 09:28:46: Client PASS B0ivhFKc
+06.11.2014 09:28:46: Server: +OK
+06.11.2014 09:28:46: +OK
+06.11.2014 09:28:46: Client STAT
+06.11.2014 09:28:46: Server: +OK 0 0
+06.11.2014 09:28:46: Client QUIT
+06.11.2014 09:29:16: Verbindung: true
+06.11.2014 09:29:16: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:29:16: Client USER bai4rnpC
+06.11.2014 09:29:16: Server: +OK
+06.11.2014 09:29:16: +OK
+06.11.2014 09:29:16: Client PASS B0ivhFKc
+06.11.2014 09:29:16: Server: +OK
+06.11.2014 09:29:16: +OK
+06.11.2014 09:29:16: Client STAT
+06.11.2014 09:29:16: Server: +OK 0 0
+06.11.2014 09:29:16: Client QUIT
+06.11.2014 09:29:46: Verbindung: true
+06.11.2014 09:29:46: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:29:46: Client USER bai4rnpC
+06.11.2014 09:29:46: Server: +OK
+06.11.2014 09:29:46: +OK
+06.11.2014 09:29:46: Client PASS B0ivhFKc
+06.11.2014 09:29:46: Server: +OK
+06.11.2014 09:29:46: +OK
+06.11.2014 09:29:46: Client STAT
+06.11.2014 09:29:46: Server: +OK 0 0
+06.11.2014 09:29:46: Client QUIT
+06.11.2014 09:30:16: Verbindung: true
+06.11.2014 09:30:16: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:30:16: Client USER bai4rnpC
+06.11.2014 09:30:16: Server: +OK
+06.11.2014 09:30:16: +OK
+06.11.2014 09:30:16: Client PASS B0ivhFKc
+06.11.2014 09:30:16: Server: +OK
+06.11.2014 09:30:16: +OK
+06.11.2014 09:30:16: Client STAT
+06.11.2014 09:30:16: Server: +OK 0 0
+06.11.2014 09:30:16: Client QUIT
+06.11.2014 09:30:46: Verbindung: true
+06.11.2014 09:30:46: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:30:46: Client USER bai4rnpC
+06.11.2014 09:30:46: Server: +OK
+06.11.2014 09:30:46: +OK
+06.11.2014 09:30:46: Client PASS B0ivhFKc
+06.11.2014 09:30:46: Server: +OK
+06.11.2014 09:30:46: +OK
+06.11.2014 09:30:46: Client STAT
+06.11.2014 09:30:46: Server: +OK 0 0
+06.11.2014 09:30:46: Client QUIT
+06.11.2014 09:31:16: Verbindung: true
+06.11.2014 09:31:16: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:31:16: Client USER bai4rnpC
+06.11.2014 09:31:16: Server: +OK
+06.11.2014 09:31:16: +OK
+06.11.2014 09:31:16: Client PASS B0ivhFKc
+06.11.2014 09:31:16: Server: +OK
+06.11.2014 09:31:16: +OK
+06.11.2014 09:31:16: Client STAT
+06.11.2014 09:31:16: Server: +OK 0 0
+06.11.2014 09:31:16: Client QUIT
+06.11.2014 09:31:46: Verbindung: true
+06.11.2014 09:31:46: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:31:46: Client USER bai4rnpC
+06.11.2014 09:31:47: Server: +OK
+06.11.2014 09:31:47: +OK
+06.11.2014 09:31:47: Client PASS B0ivhFKc
+06.11.2014 09:31:47: Server: +OK
+06.11.2014 09:31:47: +OK
+06.11.2014 09:31:47: Client STAT
+06.11.2014 09:31:47: Server: +OK 0 0
+06.11.2014 09:31:47: Client QUIT
+06.11.2014 09:32:17: Verbindung: true
+06.11.2014 09:32:17: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:32:17: Client USER bai4rnpC
+06.11.2014 09:32:17: Server: +OK
+06.11.2014 09:32:17: +OK
+06.11.2014 09:32:17: Client PASS B0ivhFKc
+06.11.2014 09:32:17: Server: +OK
+06.11.2014 09:32:17: +OK
+06.11.2014 09:32:17: Client STAT
+06.11.2014 09:32:17: Server: +OK 0 0
+06.11.2014 09:32:17: Client QUIT
+06.11.2014 09:32:47: Verbindung: true
+06.11.2014 09:32:47: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:32:47: Client USER bai4rnpC
+06.11.2014 09:32:47: Server: +OK
+06.11.2014 09:32:47: +OK
+06.11.2014 09:32:47: Client PASS B0ivhFKc
+06.11.2014 09:32:47: Server: +OK
+06.11.2014 09:32:47: +OK
+06.11.2014 09:32:47: Client STAT
+06.11.2014 09:32:47: Server: +OK 0 0
+06.11.2014 09:32:47: Client QUIT
+06.11.2014 09:33:17: Verbindung: true
+06.11.2014 09:33:17: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:33:17: Client USER bai4rnpC
+06.11.2014 09:33:17: Server: +OK
+06.11.2014 09:33:17: +OK
+06.11.2014 09:33:17: Client PASS B0ivhFKc
+06.11.2014 09:33:17: Server: +OK
+06.11.2014 09:33:17: +OK
+06.11.2014 09:33:17: Client STAT
+06.11.2014 09:33:17: Server: +OK 0 0
+06.11.2014 09:33:17: Client QUIT
+06.11.2014 09:33:47: Verbindung: true
+06.11.2014 09:33:47: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:33:47: Client USER bai4rnpC
+06.11.2014 09:33:47: Server: +OK
+06.11.2014 09:33:47: +OK
+06.11.2014 09:33:47: Client PASS B0ivhFKc
+06.11.2014 09:33:47: Server: +OK
+06.11.2014 09:33:47: +OK
+06.11.2014 09:33:47: Client STAT
+06.11.2014 09:33:47: Server: +OK 0 0
+06.11.2014 09:33:47: Client QUIT
+06.11.2014 09:34:17: Verbindung: true
+06.11.2014 09:34:17: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:34:17: Client USER bai4rnpC
+06.11.2014 09:34:17: Server: +OK
+06.11.2014 09:34:17: +OK
+06.11.2014 09:34:17: Client PASS B0ivhFKc
+06.11.2014 09:34:17: Server: +OK
+06.11.2014 09:34:17: +OK
+06.11.2014 09:34:17: Client STAT
+06.11.2014 09:34:17: Server: +OK 0 0
+06.11.2014 09:34:17: Client QUIT
+06.11.2014 09:34:47: Verbindung: true
+06.11.2014 09:34:47: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:34:47: Client USER bai4rnpC
+06.11.2014 09:34:47: Server: +OK
+06.11.2014 09:34:47: +OK
+06.11.2014 09:34:47: Client PASS B0ivhFKc
+06.11.2014 09:34:47: Server: +OK
+06.11.2014 09:34:47: +OK
+06.11.2014 09:34:47: Client STAT
+06.11.2014 09:34:47: Server: +OK 0 0
+06.11.2014 09:34:47: Client QUIT
+06.11.2014 09:35:17: Verbindung: true
+06.11.2014 09:35:17: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:35:17: Client USER bai4rnpC
+06.11.2014 09:35:17: Server: +OK
+06.11.2014 09:35:17: +OK
+06.11.2014 09:35:17: Client PASS B0ivhFKc
+06.11.2014 09:35:17: Server: +OK
+06.11.2014 09:35:17: +OK
+06.11.2014 09:35:17: Client STAT
+06.11.2014 09:35:17: Server: +OK 0 0
+06.11.2014 09:35:17: Client QUIT
+06.11.2014 09:35:47: Verbindung: true
+06.11.2014 09:35:47: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:35:47: Client USER bai4rnpC
+06.11.2014 09:35:48: Server: +OK
+06.11.2014 09:35:48: +OK
+06.11.2014 09:35:48: Client PASS B0ivhFKc
+06.11.2014 09:35:48: Server: +OK
+06.11.2014 09:35:48: +OK
+06.11.2014 09:35:48: Client STAT
+06.11.2014 09:35:48: Server: +OK 0 0
+06.11.2014 09:35:48: Client QUIT
+06.11.2014 09:36:18: Verbindung: true
+06.11.2014 09:36:18: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:36:18: Client USER bai4rnpC
+06.11.2014 09:36:18: Server: +OK
+06.11.2014 09:36:18: +OK
+06.11.2014 09:36:18: Client PASS B0ivhFKc
+06.11.2014 09:36:18: Server: +OK
+06.11.2014 09:36:18: +OK
+06.11.2014 09:36:18: Client STAT
+06.11.2014 09:36:18: Server: +OK 0 0
+06.11.2014 09:36:18: Client QUIT
+06.11.2014 09:36:48: Verbindung: true
+06.11.2014 09:36:48: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:36:48: Client USER bai4rnpC
+06.11.2014 09:36:48: Server: +OK
+06.11.2014 09:36:48: +OK
+06.11.2014 09:36:48: Client PASS B0ivhFKc
+06.11.2014 09:36:48: Server: +OK
+06.11.2014 09:36:48: +OK
+06.11.2014 09:36:48: Client STAT
+06.11.2014 09:36:48: Server: +OK 0 0
+06.11.2014 09:36:48: Client QUIT
+06.11.2014 09:37:18: Verbindung: true
+06.11.2014 09:37:18: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:37:18: Client USER bai4rnpC
+06.11.2014 09:37:18: Server: +OK
+06.11.2014 09:37:18: +OK
+06.11.2014 09:37:18: Client PASS B0ivhFKc
+06.11.2014 09:37:18: Server: +OK
+06.11.2014 09:37:18: +OK
+06.11.2014 09:37:18: Client STAT
+06.11.2014 09:37:18: Server: +OK 0 0
+06.11.2014 09:37:18: Client QUIT
+06.11.2014 09:37:48: Verbindung: true
+06.11.2014 09:37:48: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:37:48: Client USER bai4rnpC
+06.11.2014 09:37:48: Server: +OK
+06.11.2014 09:37:48: +OK
+06.11.2014 09:37:48: Client PASS B0ivhFKc
+06.11.2014 09:37:48: Server: +OK
+06.11.2014 09:37:48: +OK
+06.11.2014 09:37:48: Client STAT
+06.11.2014 09:37:48: Server: +OK 0 0
+06.11.2014 09:37:48: Client QUIT
+06.11.2014 09:38:18: Verbindung: true
+06.11.2014 09:38:18: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:38:18: Client USER bai4rnpC
+06.11.2014 09:38:18: Server: +OK
+06.11.2014 09:38:18: +OK
+06.11.2014 09:38:18: Client PASS B0ivhFKc
+06.11.2014 09:38:18: Server: +OK
+06.11.2014 09:38:18: +OK
+06.11.2014 09:38:18: Client STAT
+06.11.2014 09:38:18: Server: +OK 0 0
+06.11.2014 09:38:18: Client QUIT
+06.11.2014 09:38:48: Verbindung: true
+06.11.2014 09:38:48: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:38:48: Client USER bai4rnpC
+06.11.2014 09:38:48: Server: +OK
+06.11.2014 09:38:48: +OK
+06.11.2014 09:38:48: Client PASS B0ivhFKc
+06.11.2014 09:38:48: Server: +OK
+06.11.2014 09:38:48: +OK
+06.11.2014 09:38:48: Client STAT
+06.11.2014 09:38:48: Server: +OK 0 0
+06.11.2014 09:38:48: Client QUIT
+06.11.2014 09:39:11: Verbindung: true
+06.11.2014 09:39:11: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:39:11: Client USER bai4rnpC
+06.11.2014 09:39:11: Server: +OK
+06.11.2014 09:39:11: +OK
+06.11.2014 09:39:11: Client PASS B0ivhFKc
+06.11.2014 09:39:12: Server: +OK
+06.11.2014 09:39:12: +OK
+06.11.2014 09:39:12: Client STAT
+06.11.2014 09:39:12: Server: +OK 0 0
+06.11.2014 09:39:12: Client QUIT
+06.11.2014 09:39:42: Verbindung: true
+06.11.2014 09:39:42: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:39:42: Client USER bai4rnpC
+06.11.2014 09:39:42: Server: +OK
+06.11.2014 09:39:42: +OK
+06.11.2014 09:39:42: Client PASS B0ivhFKc
+06.11.2014 09:39:42: Server: +OK
+06.11.2014 09:39:42: +OK
+06.11.2014 09:39:42: Client STAT
+06.11.2014 09:39:42: Server: +OK 0 0
+06.11.2014 09:39:42: Client QUIT
+06.11.2014 09:40:12: Verbindung: true
+06.11.2014 09:40:12: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:40:12: Client USER bai4rnpC
+06.11.2014 09:40:12: Server: +OK
+06.11.2014 09:40:12: +OK
+06.11.2014 09:40:12: Client PASS B0ivhFKc
+06.11.2014 09:40:12: Server: +OK
+06.11.2014 09:40:12: +OK
+06.11.2014 09:40:12: Client STAT
+06.11.2014 09:40:12: Server: +OK 0 0
+06.11.2014 09:40:12: Client QUIT
+06.11.2014 09:40:42: Verbindung: true
+06.11.2014 09:40:42: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:40:42: Client USER bai4rnpC
+06.11.2014 09:40:42: Server: +OK
+06.11.2014 09:40:42: +OK
+06.11.2014 09:40:42: Client PASS B0ivhFKc
+06.11.2014 09:40:42: Server: +OK
+06.11.2014 09:40:42: +OK
+06.11.2014 09:40:42: Client STAT
+06.11.2014 09:40:42: Server: +OK 0 0
+06.11.2014 09:40:42: Client QUIT
+06.11.2014 09:41:12: Verbindung: true
+06.11.2014 09:41:12: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:41:12: Client USER bai4rnpC
+06.11.2014 09:41:12: Server: +OK
+06.11.2014 09:41:12: +OK
+06.11.2014 09:41:12: Client PASS B0ivhFKc
+06.11.2014 09:41:12: Server: +OK
+06.11.2014 09:41:12: +OK
+06.11.2014 09:41:12: Client STAT
+06.11.2014 09:41:12: Server: +OK 0 0
+06.11.2014 09:41:12: Client QUIT
+06.11.2014 09:52:00: Verbindung: true
+06.11.2014 09:52:00: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:52:00: Client USER bai4rnpC
+06.11.2014 09:52:00: Server: +OK
+06.11.2014 09:52:00: +OK
+06.11.2014 09:52:00: Client PASS B0ivhFKc
+06.11.2014 09:52:00: Server: +OK
+06.11.2014 09:52:00: +OK
+06.11.2014 09:52:00: Client STAT
+06.11.2014 09:52:00: Server: +OK 0 0
+06.11.2014 09:52:00: Client QUIT
+06.11.2014 09:52:30: Verbindung: true
+06.11.2014 09:52:30: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:52:30: Client USER bai4rnpC
+06.11.2014 09:52:30: Server: +OK
+06.11.2014 09:52:30: +OK
+06.11.2014 09:52:30: Client PASS B0ivhFKc
+06.11.2014 09:52:30: Server: +OK
+06.11.2014 09:52:30: +OK
+06.11.2014 09:52:30: Client STAT
+06.11.2014 09:52:30: Server: +OK 0 0
+06.11.2014 09:52:30: Client QUIT
+06.11.2014 09:58:05: Verbindung: true
+06.11.2014 09:58:05: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:58:05: Client USER bai4rnpC
+06.11.2014 09:58:05: Server: +OK
+06.11.2014 09:58:05: +OK
+06.11.2014 09:58:05: Client PASS B0ivhFKc
+06.11.2014 09:58:05: Server: +OK
+06.11.2014 09:58:05: +OK
+06.11.2014 09:58:05: Client STAT
+06.11.2014 09:58:05: Server: +OK 0 0
+06.11.2014 09:58:05: Client QUIT
+06.11.2014 09:58:35: Verbindung: true
+06.11.2014 09:58:35: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:58:35: Client USER bai4rnpC
+06.11.2014 09:58:35: Server: +OK
+06.11.2014 09:58:35: +OK
+06.11.2014 09:58:35: Client PASS B0ivhFKc
+06.11.2014 09:58:35: Server: +OK
+06.11.2014 09:58:35: +OK
+06.11.2014 09:58:35: Client STAT
+06.11.2014 09:58:35: Server: +OK 0 0
+06.11.2014 09:58:35: Client QUIT
+06.11.2014 09:59:05: Verbindung: true
+06.11.2014 09:59:05: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:59:05: Client USER bai4rnpC
+06.11.2014 09:59:05: Server: +OK
+06.11.2014 09:59:05: +OK
+06.11.2014 09:59:05: Client PASS B0ivhFKc
+06.11.2014 09:59:05: Server: +OK
+06.11.2014 09:59:05: +OK
+06.11.2014 09:59:05: Client STAT
+06.11.2014 09:59:05: Server: +OK 0 0
+06.11.2014 09:59:05: Client QUIT
+06.11.2014 09:59:35: Verbindung: true
+06.11.2014 09:59:35: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 09:59:35: Client USER bai4rnpC
+06.11.2014 09:59:36: Server: +OK
+06.11.2014 09:59:36: +OK
+06.11.2014 09:59:36: Client PASS B0ivhFKc
+06.11.2014 09:59:36: Server: +OK
+06.11.2014 09:59:36: +OK
+06.11.2014 09:59:36: Client STAT
+06.11.2014 09:59:36: Server: +OK 0 0
+06.11.2014 09:59:36: Client QUIT
+06.11.2014 10:00:06: Verbindung: true
+06.11.2014 10:00:06: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 10:00:06: Client USER bai4rnpC
+06.11.2014 10:00:06: Server: +OK
+06.11.2014 10:00:06: +OK
+06.11.2014 10:00:06: Client PASS B0ivhFKc
+06.11.2014 10:00:06: Server: +OK
+06.11.2014 10:00:06: +OK
+06.11.2014 10:00:06: Client STAT
+06.11.2014 10:00:06: Server: +OK 0 0
+06.11.2014 10:00:06: Client QUIT
+06.11.2014 10:00:36: Verbindung: true
+06.11.2014 10:00:36: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 10:00:36: Client USER bai4rnpC
+06.11.2014 10:00:36: Server: +OK
+06.11.2014 10:00:36: +OK
+06.11.2014 10:00:36: Client PASS B0ivhFKc
+06.11.2014 10:00:36: Server: +OK
+06.11.2014 10:00:36: +OK
+06.11.2014 10:00:36: Client STAT
+06.11.2014 10:00:36: Server: +OK 0 0
+06.11.2014 10:00:36: Client QUIT
+06.11.2014 10:01:06: Verbindung: true
+06.11.2014 10:01:06: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 10:01:06: Client USER bai4rnpC
+06.11.2014 10:01:06: Server: +OK
+06.11.2014 10:01:06: +OK
+06.11.2014 10:01:06: Client PASS B0ivhFKc
+06.11.2014 10:01:06: Server: +OK
+06.11.2014 10:01:06: +OK
+06.11.2014 10:01:06: Client STAT
+06.11.2014 10:01:06: Server: +OK 0 0
+06.11.2014 10:01:06: Client QUIT
+06.11.2014 10:01:36: Verbindung: true
+06.11.2014 10:01:36: Server: +OK POP3 Server Prof. Huebner ready!
+06.11.2014 10:01:36: Client USER bai4rnpC
+06.11.2014 10:01:36: Server: +OK
+06.11.2014 10:01:36: +OK
+06.11.2014 10:01:36: Client PASS B0ivhFKc
+06.11.2014 10:01:36: Server: +OK
+06.11.2014 10:01:36: +OK
+06.11.2014 10:01:36: Client STAT
+06.11.2014 10:01:36: Server: +OK 0 0
+06.11.2014 10:01:36: Client QUIT

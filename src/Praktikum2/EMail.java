@@ -11,15 +11,15 @@ public class EMail {
 	
 	private long UID;
 	private String inhalt;
-	private long groeﬂeinByte;
+	private long groesseinByte;
 	private boolean loeschFlag;
 	
 	public static final String NACHRICHTENVERZEICHNIS = "mail/";
 	
-	public EMail(long UID, String inhalt, long groeﬂe) {
+	public EMail(long UID, String inhalt, long groesse) {
 		this.UID = UID;
 		this.inhalt = inhalt;
-		this.groeﬂeinByte = groeﬂe;
+		this.groesseinByte = groesse;
 		this.loeschFlag = false;
 	}
 	
@@ -66,7 +66,7 @@ public class EMail {
 	}
 
 	public long getGroesseInByte() {
-		return groeﬂeinByte;
+		return groesseinByte;
 	}
 
 	public boolean markiertZumLoschen() {

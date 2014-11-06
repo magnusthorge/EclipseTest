@@ -16,39 +16,41 @@ import Praktikum2.Logger;
 public class POP3Server extends Thread {
 
 	private static final String BENUTZER = "Rechnernetze";
-	private static final String PASSWORT = "kurix";
-	
+	private static final String PASSWORT = "B0ivhFKc";
+
 	private ServerSocket serverSocket;
 	private Socket clientVerbindung;
-	
+
 	private BufferedReader reader;
 	private BufferedWriter writer;
 
 	private ArrayList<EMail> mails;
 	InputStream in;
 	OutputStream out;
-		
+
 	Logger logger;
-	
-	public POP3Server(ServerSocket server){
+
+	public POP3Server(ServerSocket server) {
 		serverSocket = server;
 		logger = new Logger("Server");
 		logger.setDebug(true);
 	}
-	
 
 	@Override
 	public void run() {
 		while (true) {
 			try {
 				clientVerbindung = serverSocket.accept();
-				writer = new BufferedWriter(new OutputStreamWriter(clientVerbindung.getOutputStream()));
-				reader = new BufferedReader(new InputStreamReader(clientVerbindung.getInputStream()));
+				writer = new BufferedWriter(new OutputStreamWriter(
+						clientVerbindung.getOutputStream()));
+				reader = new BufferedReader(new InputStreamReader(
+						clientVerbindung.getInputStream()));
 				logger.open();
 				this.send("+OK Server bereit");
 				mails = getAlleMails();
-				while (!clientVerbindung.isClosed() && !this.authentifiziere());
-				while(!clientVerbindung.isClosed()) {
+				while (!clientVerbindung.isClosed() && !this.authentifiziere())
+					;
+				while (!clientVerbindung.isClosed()) {
 					transaktion();
 				}
 				logger.log("Session beendet");
@@ -59,7 +61,7 @@ public class POP3Server extends Thread {
 			}
 		}
 	}
-	
+
 	private void send(String nachricht) {
 		try {
 			writer.write(nachricht + "\r\n");
@@ -68,13 +70,13 @@ public class POP3Server extends Thread {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		logger.log("Server: "+ nachricht);
+		logger.log("Server: " + nachricht);
 	}
-	
+
 	private boolean authentifiziere() throws IOException {
 		logger.log("Warte auf Benutzername");
 		String eingehendeNachricht = reader.readLine();
-		logger.log("Client: " +eingehendeNachricht);
+		logger.log("Client: " + eingehendeNachricht);
 		if (eingehendeNachricht == null) {
 			verarbeiteQuit();
 			return false;
@@ -86,51 +88,82 @@ public class POP3Server extends Thread {
 			}
 			send("-ERR Befehl unbekannt");
 			eingehendeNachricht = reader.readLine();
-			logger.log("Client: " +eingehendeNachricht);
+			logger.log("Client: " + eingehendeNachricht);
 		}
-		
-		//Anmeldevorgang
+
+		// Anmeldevorgang
 		String benutzername = eingehendeNachricht.substring(5);
 
 		if (!benutzername.equals(BENUTZER)) {
 			send("-ERR Benutzername nicht gefunden");
 			return false;
 		}
-		
-		send("+OK Passwort?"); 
+
+		send("+OK Passwort?");
 		eingehendeNachricht = reader.readLine();
-		logger.log(eingehendeNachricht);
-		
-		if (!eingehendeNachricht.startsWith("PASS")) {
-			send("-ERR Passwort erwartet");
-			return false;
-		}
 		String sentPassword = eingehendeNachricht.substring(5);
-		if (!sentPassword.equals(PASSWORT)) {
-			send("-ERR Passwort ist ungültig");
+		logger.log(eingehendeNachricht);
+		while (!eingehendeNachricht.startsWith("PASS") || !sentPassword.equals(PASSWORT)) {
+			if (!eingehendeNachricht.startsWith("PASS")) {
+				send("-ERR Passwort erwartet");
+				eingehendeNachricht = reader.readLine();
+			}
+			
+			sentPassword = eingehendeNachricht.substring(5);
+			if (!sentPassword.equals(PASSWORT)) {
+				send("-ERR Passwort ist ungÃ¼ltig");
+				eingehendeNachricht = reader.readLine();
+			}
 		}
-		
+
 		send("+OK");
 		return true;
 	}
-	
+
 	private void transaktion() throws IOException {
 		String eingehendeNachricht = reader.readLine();
-		String befehl = eingehendeNachricht.substring(0,4);
-		logger.log("Client: "+eingehendeNachricht);
-		switch(befehl) {
-			case "STAT": verarbeiteStat(); break;
-			case "LIST": verarbeiteList(eingehendeNachricht); break;
-			case "UIDL": verarbeiteUidl(eingehendeNachricht); break;
-			case "RETR": verarbeiteRetr(eingehendeNachricht.substring(5)); break;
-			case "DELE": verarbeiteDele(eingehendeNachricht.substring(5)); break;
-			case "NOOP": verarbeiteNoop(); break;
-			case "RSET": verarbeiteRset(); break;
-			case "QUIT": verarbeiteQuit(); break;
+		String befehl = "";
+		try {
+			befehl = eingehendeNachricht.substring(0, 4);
+		} catch (StringIndexOutOfBoundsException ex) {
+			befehl = "error";
+		}
+		logger.log("Client: " + eingehendeNachricht);
+		switch (befehl) {
+		case "STAT":
+			verarbeiteStat();
+			break;
+		case "LIST":
+			verarbeiteList(eingehendeNachricht);
+			break;
+		case "UIDL":
+			verarbeiteUidl(eingehendeNachricht);
+			break;
+		case "RETR":
+			verarbeiteRetr(eingehendeNachricht.substring(5));
+			break;
+		case "DELE":
+			verarbeiteDele(eingehendeNachricht.substring(5));
+			break;
+		case "NOOP":
+			verarbeiteNoop();
+			break;
+		case "RSET":
+			verarbeiteRset();
+			break;
+		case "QUIT":
+			verarbeiteQuit();
+			break;
+		default:
+			verarbeiteDefault();
 		}
 	}
-	
-	private void verarbeiteRset() {   //RSET setzt alle DELE-Kommandos zurück.
+
+	private void verarbeiteDefault() { // Bei Falscher Eingabe
+		send("-ERR Befehl wurde nicht gefunden");
+	}
+
+	private void verarbeiteRset() { // RSET setzt alle DELE-Kommandos zurï¿½ck.
 		for (EMail mail : mails) {
 			if (mail.markiertZumLoschen()) {
 				mail.setzeAUfMarkiertZumLoeschen(false);
@@ -138,29 +171,31 @@ public class POP3Server extends Thread {
 		}
 		send("+OK alle Nachrichten wurden demarkiert");
 	}
-	
-	private void verarbeiteNoop() { //keine Funktion, der Server antwortet mit +OK
+
+	private void verarbeiteNoop() { // keine Funktion, der Server antwortet mit
+									// +OK
 		send("+OK");
 	}
-	
-	private void verarbeiteDele(String n) { //löscht die n-te E-Mail am Server.
+
+	private void verarbeiteDele(String n) { // lï¿½scht die n-te E-Mail am Server.
 		int arg = Integer.parseInt(n);
-		if (arg-1 > mails.size()) {
-			send("-ERR Nachricht wurde nicht gefunden");
-		} else{
-				mails.get(arg-1).setzeAUfMarkiertZumLoeschen(true);
-				send("+OK Nachricht " + arg + " ist markiert zum löschen");
-			}
-	}
-	
-	private void verarbeiteRetr(String n) { //holt die n-te E-Mail vom E-Mail-Server.
-		int arg = Integer.parseInt(n);
-		if (arg-1 > mails.size()) {
+		if (arg - 1 > mails.size()) {
 			send("-ERR Nachricht wurde nicht gefunden");
 		} else {
-			EMail mail = mails.get(arg-1);
+			mails.get(arg - 1).setzeAUfMarkiertZumLoeschen(true);
+			send("+OK Nachricht " + arg + " ist markiert zum lï¿½schen");
+		}
+	}
+
+	private void verarbeiteRetr(String n) { // holt die n-te E-Mail vom
+											// E-Mail-Server.
+		int arg = Integer.parseInt(n);
+		if (arg - 1 > mails.size()) {
+			send("-ERR Nachricht wurde nicht gefunden");
+		} else {
+			EMail mail = mails.get(arg - 1);
 			if (mail.markiertZumLoschen()) {
-				send("-ERR Nachricht ist markiert zum löschen");
+				send("-ERR Nachricht ist markiert zum lÃ¶schen");
 			} else {
 				send("+OK Nachricht folgt:");
 				send(mail.getInhalt());
@@ -168,51 +203,56 @@ public class POP3Server extends Thread {
 			}
 		}
 	}
-	
-	private void verarbeiteUidl(String nachricht) {  //zeigt die eindeutige ID der E-Mail an
+
+	private void verarbeiteUidl(String nachricht) { // zeigt die eindeutige ID
+													// der E-Mail an
 		int arg = 0;
-		if (nachricht.length() > 4) arg = Integer.parseInt(nachricht.substring(nachricht.lastIndexOf(" ")));
-		if (arg != 0 && arg <= mails.size()){
-			if (mails.get(arg-1).markiertZumLoschen()) {
-				send("-ERR Nachricht ist zum löschen markiert");
+		if (nachricht.length() > 4)
+			arg = Integer.parseInt(nachricht.substring(nachricht
+					.lastIndexOf(" ")));
+		if (arg != 0 && arg <= mails.size()) {
+			if (mails.get(arg - 1).markiertZumLoschen()) {
+				send("-ERR Nachricht ist zum lï¿½schen markiert");
 			} else {
-			send("+OK " + arg + " " + mails.get(arg-1).getUID());
+				send("+OK " + arg + " " + mails.get(arg - 1).getUID());
 			}
-			} else if (arg != 0) { //Argument bigger then number of mails
+		} else if (arg != 0) { // Argument bigger then number of mails
 			send("-ERR Nachricht nicht gefunden");
-		}
-		else { //No Argument given. All Mails listed
+		} else { // No Argument given. All Mails listed
 			send("+OK Uidl Auflistung folgt:");
 			int i = 1;
 			for (EMail mail : mails) {
-				send(i +" "+ mail.getUID());
+				send(i + " " + mail.getUID());
 				i++;
 			}
 			send(".");
 		}
 	}
-	
-	private void verarbeiteList(String nachricht) {  //liefert die Anzahl und die Größe der (n-ten) E-Mail(s).
+
+	private void verarbeiteList(String nachricht) { // liefert die Anzahl und
+													// die Grï¿½ï¿½e der (n-ten)
+													// E-Mail(s).
 		send("+OK Auflistung folgt:");
 		int arg = 0;
-		if (nachricht.length() > 4) arg = Integer.parseInt(nachricht.substring(nachricht.lastIndexOf(" ")));
-		if (arg != 0 && arg <= mails.size()){
-			send("+OK " + arg + " " + mails.get(arg-1).getGroesseInByte());
-		} else if (arg != 0) { //Argument bigger then number of mails
+		if (nachricht.length() > 4)
+			arg = Integer.parseInt(nachricht.substring(nachricht
+					.lastIndexOf(" ")));
+		if (arg != 0 && arg <= mails.size()) {
+			send("+OK " + arg + " " + mails.get(arg - 1).getGroesseInByte());
+		} else if (arg != 0) { // Argument bigger then number of mails
 			String response = "-ERR Nachricht nicht gefunden";
 			logger.log(response);
 			send(response);
-		}
-		else { //No Argument given. All Mails listed
+		} else { // No Argument given. All Mails listed
 			int i = 1;
 			for (EMail mail : mails) {
-				send(i +" "+ mail.getGroesseInByte());
+				send(i + " " + mail.getGroesseInByte());
 				i++;
 			}
 			send(".");
 		}
 	}
-	
+
 	private void verarbeiteStat() {
 		int anzahlDerNachrichten = mails.size();
 		long groesseDerNachrichten = 0;
@@ -221,34 +261,37 @@ public class POP3Server extends Thread {
 		}
 		send("+OK " + anzahlDerNachrichten + " " + groesseDerNachrichten);
 	}
+
 	private void verarbeiteQuit() {
 		try {
+			send("+OK");
 			clientVerbindung.close();
 			deleteMarkedMails();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
-	
+
 	private void deleteMarkedMails() {
 		for (EMail mail : mails) {
 			if (mail.markiertZumLoschen()) {
-				File mailFile = new File(EMail.NACHRICHTENVERZEICHNIS + mail.getUID()+".email");
+				File mailFile = new File(EMail.NACHRICHTENVERZEICHNIS
+						+ mail.getUID() + ".email");
 				mailFile.delete();
-				logger.log("Nachricht mit UID "+ mail.getUID() + " wurde gelöscht");
+				logger.log("Nachricht mit UID " + mail.getUID()
+						+ " wurde gelï¿½scht");
 			}
-			
+
 		}
 	}
-	
+
 	private ArrayList<EMail> getAlleMails() {
 		ArrayList<EMail> rueckgabeListe = new ArrayList<EMail>();
-	    File directory = new File(EMail.NACHRICHTENVERZEICHNIS);
-	    for (String filename : directory.list()) {
+		File directory = new File(EMail.NACHRICHTENVERZEICHNIS);
+		for (String filename : directory.list()) {
 			rueckgabeListe.add(EMail.ladeEmailAusDatei(filename));
-	    }
-	    return rueckgabeListe;
+		}
+		return rueckgabeListe;
 	}
-	
-	
+
 }
