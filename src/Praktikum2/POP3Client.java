@@ -7,7 +7,11 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
+
+
 
 
 
@@ -146,10 +150,14 @@ public class POP3Client extends Thread {
 	}
 	
 	private String leseEmail() throws IOException{
+		 
 		String line = reader.readLine();
+		byte[] bytes = line.getBytes();
+		Charset.forName("UTF-8").decode(ByteBuffer.wrap(bytes));
 		StringBuilder nachricht = new StringBuilder(line);
+		line = bytes.toString();
 		while(!line.equals(".")) {
-
+			line = bytes.toString();
 			nachricht.append(line);
 			nachricht.append("\r\n");
 			line = reader.readLine();
