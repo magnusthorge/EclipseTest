@@ -1,0 +1,75 @@
+05.11.2014 08:41:56: Server: +OK Server bereit
+05.11.2014 08:41:56: Warte auf Benutzername
+05.11.2014 08:41:56: Client: AUTH
+05.11.2014 08:41:56: Server: -ERR Befehl unbekannt
+05.11.2014 08:41:56: Client: CAPA
+05.11.2014 08:41:56: Server: -ERR Befehl unbekannt
+05.11.2014 08:41:56: Client: USER Rechnernetze
+05.11.2014 08:41:56: Server: +OK Passwort?
+05.11.2014 08:41:56: PASS kurix
+05.11.2014 08:41:56: Server: +OK
+05.11.2014 08:41:56: Client: STAT
+05.11.2014 08:41:56: Server: +OK 1 1763
+05.11.2014 08:41:56: Client: QUIT
+05.11.2014 08:41:56: Session beendet
+05.11.2014 08:41:58: Server: +OK Server bereit
+05.11.2014 08:41:58: Warte auf Benutzername
+05.11.2014 08:41:58: Client: CAPA
+05.11.2014 08:41:58: Server: -ERR Befehl unbekannt
+05.11.2014 08:41:58: Client: USER Rechnernetze
+05.11.2014 08:41:58: Server: +OK Passwort?
+05.11.2014 08:41:58: PASS kurix
+05.11.2014 08:41:58: Server: +OK
+05.11.2014 08:41:58: Client: STAT
+05.11.2014 08:41:58: Server: +OK 1 1763
+05.11.2014 08:41:58: Client: LIST
+05.11.2014 08:41:58: Server: +OK Auflistung folgt:
+05.11.2014 08:41:58: Server: 1 1763
+05.11.2014 08:41:58: Server: .
+05.11.2014 08:41:58: Client: UIDL
+05.11.2014 08:41:58: Server: +OK Uidl Auflistung folgt:
+05.11.2014 08:41:58: Server: 1 1437
+05.11.2014 08:41:58: Server: .
+05.11.2014 08:41:58: Client: RETR 1
+05.11.2014 08:41:58: Server: +OK Nachricht folgt:
+05.11.2014 08:41:58: Server: Return-Path: <dennisalexander.suewolto@haw-hamburg.de>Return-Path: <dennisalexander.suewolto@haw-hamburg.de>
+Received: from mx2.smart-mail.de (mx2.smart-mail.de [81.88.24.145])
+	by mail.smart-mail.de with ESMTP id 746D8FC5
+	for <test3@smart-mail.de>; Wed, 05 Nov 2014 20:38:58 +0100 (CET)
+Received-SPF: None
+	identity=dennisalexander.suewolto@haw-hamburg.de; client-ip=81.88.24.145;
+	helo=mx2.smart-mail.de
+X-Greylist: delayed 571 seconds by postgrey-1.34 at vs348.dus2.alvotech.de; Wed, 05 Nov 2014 20:38:54 CET
+Received: from mx6.haw-public.haw-hamburg.de (mx6.haw-public.haw-hamburg.de [141.22.6.3])
+	by mx2.smart-mail.de (Postfix) with ESMTP id A324317A12B
+	for <test3@smart-mail.de>; Wed,  5 Nov 2014 20:38:54 +0100 (CET)
+X-IronPort-AV: E=Sophos;i="5.07,321,1413237600"; 
+   d="scan'208";a="22533987"
+Received: from post.haw-hamburg.de (HELO HUB02.mailcluster.haw-hamburg.de) ([141.22.24.51])
+  by mail6.is.haw-hamburg.de with ESMTP/TLS/AES128-SHA; 05 Nov 2014 20:29:22 +0100
+Received: from CAS01.mailcluster.haw-hamburg.de (2002:8d16:183c::8d16:183c) by
+ HUB02.mailcluster.haw-hamburg.de (2002:8d16:1833::8d16:1833) with Microsoft
+ SMTP Server (TLS) id 14.3.174.1; Wed, 5 Nov 2014 20:29:22 +0100
+Received: from [192.168.1.195] (141.22.200.50) by haw-mailer.haw-hamburg.de
+ (141.22.24.60) with Microsoft SMTP Server (TLS) id 14.3.174.1; Wed, 5 Nov
+ 2014 20:29:21 +0100
+Date: Wed, 5 Nov 2014 20:29:21 +0100
+From: =?ISO-8859-1?Q?Dennis_Alexander_S=FCwolto?=
+	<dennisalexander.suewolto@haw-hamburg.de>
+To: <test3@smart-mail.de>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+Message-ID: <39ef507e-fde4-4e51-868b-ba19d36ff92c@CAS01.mailcluster.haw-hamburg.de>
+
+XG4KLgouCi4KLgou
+
+
+
+
+05.11.2014 08:41:58: Server: .
+05.11.2014 08:41:58: Client: DELE 1
+05.11.2014 08:41:58: Server: +OK Nachricht 1 ist markiert zum löschen
+05.11.2014 08:41:58: Client: QUIT
+05.11.2014 08:41:58: Nachricht mit UID 1437 wurde gelöscht
+05.11.2014 08:41:58: Session beendet

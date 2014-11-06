@@ -1,0 +1,55 @@
+05.11.2014 08:40:07: Verbindung: true
+05.11.2014 08:40:08: Server: +OK Smart-Mail POP3 service ready
+05.11.2014 08:40:08: Client USER test1@smart-mail.de
+05.11.2014 08:40:08: Server: +OK Password required
+05.11.2014 08:40:08: +OK Password required
+05.11.2014 08:40:08: Client PASS kurix
+05.11.2014 08:40:11: Server: -ERR Login failed
+05.11.2014 08:40:11: Client USER test1@smart-mail.de
+05.11.2014 08:40:11: Server: +OK Password required
+05.11.2014 08:40:11: +OK Password required
+05.11.2014 08:40:11: Client PASS kurix
+05.11.2014 08:40:14: Server: -ERR Login failed
+05.11.2014 08:40:14: Client USER test1@smart-mail.de
+05.11.2014 08:40:14: Server: +OK Password required
+05.11.2014 08:40:14: +OK Password required
+05.11.2014 08:40:14: Client PASS kurix
+05.11.2014 08:40:17: Server: -ERR Login failed
+05.11.2014 08:40:17: Client USER test1@smart-mail.de
+05.11.2014 08:40:17: Server: null
+05.11.2014 08:40:17: Server: Der Dienstanbieter hat Ihren Account gesperrt
+05.11.2014 08:40:17: Verbindung: true
+05.11.2014 08:40:17: Server: +OK Smart-Mail POP3 service ready
+05.11.2014 08:40:17: Client USER test2@smart-mil.de
+05.11.2014 08:40:17: Server: +OK Password required
+05.11.2014 08:40:17: +OK Password required
+05.11.2014 08:40:17: Client PASS kurix
+05.11.2014 08:40:20: Server: -ERR Login failed
+05.11.2014 08:40:20: Client USER test2@smart-mil.de
+05.11.2014 08:40:20: Server: +OK Password required
+05.11.2014 08:40:20: +OK Password required
+05.11.2014 08:40:20: Client PASS kurix
+05.11.2014 08:40:23: Server: -ERR Login failed
+05.11.2014 08:40:23: Client USER test2@smart-mil.de
+05.11.2014 08:40:23: Server: +OK Password required
+05.11.2014 08:40:23: +OK Password required
+05.11.2014 08:40:23: Client PASS kurix
+05.11.2014 08:40:26: Server: -ERR Login failed
+05.11.2014 08:40:26: Client USER test2@smart-mil.de
+05.11.2014 08:40:26: Server: null
+05.11.2014 08:40:26: Server: Der Dienstanbieter hat Ihren Account gesperrt
+05.11.2014 08:40:26: Verbindung: true
+05.11.2014 08:40:27: Server: +OK Smart-Mail POP3 service ready
+05.11.2014 08:40:27: Client USER test3@smart-mail.de
+05.11.2014 08:40:27: Server: +OK Password required
+05.11.2014 08:40:27: +OK Password required
+05.11.2014 08:40:27: Client PASS kurix
+05.11.2014 08:40:27: Server: +OK Logged in, you have 1 messages (1707 octets)
+05.11.2014 08:40:27: +OK Logged in, you have 1 messages (1707 octets)
+05.11.2014 08:40:27: Client STAT
+05.11.2014 08:40:27: Server: +OK 1 1707
+05.11.2014 08:40:27: Client RETR 1
+05.11.2014 08:40:27: Server: +OK 1707 octets
+05.11.2014 08:40:27: Client DELE 1
+05.11.2014 08:40:27: Server: +OK Message marked for deletion
+05.11.2014 08:40:27: Client QUIT
