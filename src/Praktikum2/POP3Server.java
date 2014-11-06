@@ -8,7 +8,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
@@ -16,9 +15,6 @@ import Praktikum2.Logger;
 
 public class POP3Server extends Thread {
 
-	private static final String HOST = "localhost";
-	private static final int PORT = 11000;
-	
 	private static final String BENUTZER = "Rechnernetze";
 	private static final String PASSWORT = "kurix";
 	
@@ -34,16 +30,13 @@ public class POP3Server extends Thread {
 		
 	Logger logger;
 	
-	public POP3Server() {
-		try {
-			serverSocket = new ServerSocket(PORT,0, InetAddress.getByName(HOST));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+	public POP3Server(ServerSocket server){
+		serverSocket = server;
 		logger = new Logger("Server");
 		logger.setDebug(true);
 	}
 	
+
 	@Override
 	public void run() {
 		while (true) {
